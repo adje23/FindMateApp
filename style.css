@@ -1,0 +1,332 @@
+
+/* Styles from authenticator.html */
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #15d3da;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      text-align: center;
+    }
+
+    header {
+      background-color: #182ce4;
+      padding: 15px;
+      text-align: center;
+      position: relative;
+    }
+
+    nav {
+      position: absolute;
+      top: 20px;
+      right: 30px;
+    }
+
+    nav a {
+      margin-left: 20px;
+      color: white;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 36px;
+    }
+
+    .auth-container {
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 40px 20px;
+      font-size: 30px;
+    }
+
+    input {
+        padding: 10px;
+        margin: 10px;
+        border: 1px solid black;
+        border-radius: 5px;
+        box-sizing: border-box; /* makes sure padding doesn’t mess with the width */
+        width: 100%;
+        max-width: 300px;
+    }
+
+    button {
+      padding: 10px 20px;
+      margin: 10px;
+      border: none;
+      background-color: white;
+      color: #182ce4;
+      font-weight: bold;
+      border-radius: 5px;
+      cursor: pointer;
+      width: auto;
+      max-width: 200px;
+    }
+
+    button:hover {
+      background-color: #e0e0e0;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: rgba(0, 0, 0, 0.2);
+    }
+  
+/* Styles from contact.html */
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #15d3da;
+            color: white;
+
+            /* Flex layout to push footer to bottom */
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            background-color: #182ce4;
+            padding: 15px;
+            text-align: center;
+            position: relative;
+            color: white;
+        }
+
+        nav {
+            position: absolute;
+            top: 20px;
+            right: 30px;
+        }
+
+        nav a {
+            margin-left: 20px;
+            color: white;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+
+        .contact-container {
+            max-width: 600px;
+            margin: 150px auto 50px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            color: black;
+        }
+
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+
+        label {
+            display: block;
+            margin: 15px 0 5px;
+            color: #555;
+        }
+
+        input[type="text"], input[type="email"], textarea {
+            width: 95%;
+            padding: 10px;
+            border: 1px solid #000000;
+            border-radius: 4px;
+            resize: vertical;
+        }
+
+        button {
+            margin-top: 20px;
+            width: 100%;
+            padding: 12px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.2);
+            margin-top: auto; /* Keeps footer glued to the bottom of page */
+        }
+    
+/* Styles from index.html */
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #15d3da;
+            color: white;
+
+            /* Flex layout to ensure footer stays at bottom */
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            background-color: #182ce4;
+            padding: 15px;
+            text-align: center;
+            position: relative;
+        }
+
+        nav {
+            position: absolute;
+            top: 20px;
+            right: 30px;
+        }
+
+        nav a {
+            margin-left: 20px;
+            color: white;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+
+        .Welcome-Banner {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 60vh;
+            text-align: center;
+            padding: 0 20px;
+        }
+
+        .Welcome-Banner h2 {
+            font-size: 48px;
+            margin-bottom: 10px;
+        }
+
+        .Welcome-Banner p {
+            font-size: 20px;
+            max-width: 700px;
+        }
+
+        .Welcome-Banner button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 18px;
+            border: none;
+            background-color: white;
+            color: #182ce4;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .Welcome-Banner button:hover {
+            background-color: #f8f8f8;
+        }
+
+        .gallery-container {
+            display: flex;
+            justify-content: center;
+            gap: 60px;
+            margin: -60px 0;
+        }
+
+        .photo-box {
+            width: 300px;
+            height: 300px;
+            background-color: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .photo-box img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.2);
+            margin-top: auto; /* Keeps footer glued to the bottom of page */
+        }
+
+        .photo-box img {
+            opacity: 0.8; /* 0 = fully transparent, 1 = fully opaque */
+        }
+    /* Styles from index.html */
+    .about-container {
+        max-width: 800px;
+        margin: 100px auto;
+        background: white;
+        color: #333;
+        padding: 40px 30px;
+        border-radius: 10px;
+        box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+        font-size: 18px;
+        line-height: 1.6;
+    }
+    
+    .about-container h2 {
+        text-align: center;
+        font-size: 36px;
+        margin-bottom: 20px;
+        color: #182ce4;
+    }
+    
+    .about-container h3 {
+        margin-top: 30px;
+        color: #182ce4;
+    }
+    
+    .about-container ul {
+        list-style: none;
+        padding-left: 0;
+    }
+    
+    .about-container li {
+        margin-bottom: 10px;
+        padding-left: 20px;
+        position: relative;
+    }
+    
+    .about-container li::before {
+        position: absolute;
+        left: 0;
+    }
+    

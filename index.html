@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><link href="style.css" rel="stylesheet"/>
+<meta charset="utf-8"/>
+<title>Welcome to FindMate</title>
+
+</head>
+<body>
+
+<header>
+    <h1>FindMate</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="authenticator.html">Login</a>
+        <!--might have the tabs scroll down instead of link to a new page-->
+    </nav>
+</header>
+
+<!-- Insert an html file for that href so the sign up button works-->
+<section class="Welcome-Banner">
+    <h2>Discover Nearby Roommates</h2>
+    <p>Welcome to FindMate — Your one stop shop for finding your next roommate!</p>
+    <a href="authenticator.html"><button>Get Started</button></a>
+</section>
+
+<!-- This is where we can add a introduction photo gallery for rooms or find mate users-->
+<section class="gallery-container">
+    <div class="photo-box"><img src="images/photo1.jpg" alt="Home photo 1"></div>
+    <div class="photo-box"><img src="images/photo2.jpg" alt="Home photo 2"></div>
+    <div class="photo-box"><img src="images/photo3.jpg" alt="Home photo 3"></div>
+  </section>
+  
+<footer>
+    &copy; 2025 FindMate. All rights reserved.
+</footer>
+
+    <!--SDK for firebase-->
+    <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-analytics.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
